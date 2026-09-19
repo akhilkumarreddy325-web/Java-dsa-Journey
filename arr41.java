@@ -9,17 +9,19 @@ public class arr41 {
     System.out.print("enter array elements");
     for(int i=0;i<n;i++){
         arr[i]=sc.nextInt();}
-        boolean appear=false;
+       // boolean appear=false;
     for(int i=0;i<n;i++){
         int count=0;
         for(int j=0;j<n;j++){
          if(arr[i]==arr[j]){
-            appear=true;
+            
              count++;
          }
+         
+         
         }
+        
         System.out.println(arr[i]+"apperas"+count+"times");
     }
 
-}
-}
+}}
