@@ -9,7 +9,7 @@ public static void main(String[] args){
         char ch=n.charAt(i);
         
         boolean appear=false;
-        for(int j=1;j<res.length();j++){
+        for(int j=0;j<res.length();j++){
             char ch1=res.charAt(j);
            if(ch1==ch)
                 appear=true;
